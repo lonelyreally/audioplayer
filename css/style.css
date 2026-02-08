@@ -1,0 +1,68 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+    font-family: 'Nexa';
+}
+
+.player {
+    padding: 40px;
+    width: 350px;
+    background-color: #D8D8D8;
+    border-radius: 10px;
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+
+
+.progress {
+    height: 6px;
+    border-radius: 25px;
+    accent-color: black;
+    width: 100%;
+    cursor: pointer;
+}
+
+.info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonsh {
+    display: flex;
+    justify-content: space-between;
+}
+
+.but {
+    cursor: pointer;
+}
+
+.artist {
+    color: #5a5a5a;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.song_time {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 12px;
+    color: #000;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
