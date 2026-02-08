@@ -47,13 +47,13 @@ const songs = [
         audio: "audio/talk shit.m4a",
     },
     {
-        image: "images//fever lie - snippet.jpg",
+        image: "images/fever lie - snippet.jpeg",
         title: "tiktok snippet",
         artist: "fever lie",
         audio: "audio/fever lie - snippet.mp3",
     },
     {
-        image: "images//иван.jpeg",
+        image: "images/иван и дядя Эпштейн.jpeg",
         title: "???",
         artist: "???",
         audio: "audio/иван.m4a",
@@ -135,4 +135,5 @@ function sToStr(s) {
   let m = Math.trunc(s / 60) + ''
   s = (s % 60) + ''
   return m.padStart(2, 0) + ':' + s.padStart(2, 0)
+
 }
