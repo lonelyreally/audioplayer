@@ -58,6 +58,36 @@ const songs = [
         artist: "???",
         audio: "audio/иван.m4a",
     },
+    {
+        image: "images/JDFLAG - LЮБИТЬ.jpeg",
+        title: "LЮБИТЬ",
+        artist: "JDFLAG",
+        audio: "audio/LЮБИТЬ.m4a",
+    },
+    {
+        image: "images/tewiq - попал.png",
+        title: "попал",
+        artist: "tewiq",
+        audio: "audio/попал.m4a",
+    },
+    {
+        image: "images/dmtboy - OMGDBL.jpeg",
+        title: "OMGDBL",
+        artist: "dmtboy",
+        audio: "audio/omgdbl.m4a",
+    },
+    {
+        image: "images/Kai Angel - im all blessed the fuck up.jpeg",
+        title: "im all blessed the fuck up",
+        artist: "Kai Angel",
+        audio: "audio/im all blessed the fuck up.m4a",
+    },
+    {
+        image: "images/clout - sEx dOLL.jpeg",
+        title: "sEx dOLL%)",
+        artist: "clout",
+        audio: "audio/sEx dOLL.m4a",
+    },
 ]
 const audio = document.createElement("audio")
 
@@ -137,3 +167,4 @@ function sToStr(s) {
   return m.padStart(2, 0) + ':' + s.padStart(2, 0)
 
 }
+
