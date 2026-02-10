@@ -53,10 +53,10 @@ const songs = [
         audio: "audio/fever lie - snippet.mp3",
     },
     {
-        image: "images/иван и дядя Эпштейн.jpeg",
-        title: "???",
-        artist: "???",
-        audio: "audio/иван.m4a",
+        image: "images/мистер модератор, SODA LUV - занозы.jpeg",
+        title: "занозы",
+        artist: "мистер модератор, SODA LUV",
+        audio: "audio/занозы.m4a",
     },
     {
         image: "images/JDFLAG - LЮБИТЬ.jpeg",
@@ -167,4 +167,5 @@ function sToStr(s) {
   return m.padStart(2, 0) + ':' + s.padStart(2, 0)
 
 }
+
 
